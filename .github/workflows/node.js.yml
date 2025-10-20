@@ -1,1 +1,10 @@
+name: Demo_github_project
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+    
 
