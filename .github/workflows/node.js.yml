@@ -55,6 +55,7 @@ jobs:
         with:
           scan-type: 'fs'
           scan-ref: '.'
+          format: 'table'
           trivy-config: trivy.yaml
           
         
