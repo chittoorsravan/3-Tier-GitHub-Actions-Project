@@ -57,6 +57,7 @@ jobs:
           scan-ref: '.'
           format: 'table'
           trivy-config: trivy.yaml
+          severity: 'CRITICAL,HIGH'
           
         
 
